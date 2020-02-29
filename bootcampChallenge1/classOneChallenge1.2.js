@@ -22,7 +22,7 @@ const ProgCompanies = [
     address: 'Guilherme Gembala Street ',
     number: 260,
     city: 'Rio do Sul-Sc.',
-    phone: '(47)9920-78767',
+    phone: '(47)9920-7876',
     email: 'rocketseat@rocketseat.com.br'
   },
   {

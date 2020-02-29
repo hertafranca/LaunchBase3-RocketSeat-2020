@@ -11,14 +11,17 @@ const typeTechs = [
 
 const techsDevs = [
   {
-  name:'Gustavo Davi', age: 27, techs: typeTechs  
+    name: 'Gustavo Davi', age: 27, techs: typeTechs
   },
-  {name:'Mayk Brito', age:30, techs: typeTechs
-},
-  {name:'Herta Franca', age:44, techs: typeTechs 
-},
-  {name:'Diego Fernandes', age:25, techs: typeTechs 
-},
+  {
+    name: 'Mayk Brito', age: 30, techs: typeTechs
+  },
+  {
+    name: 'Herta Franca', age: 44, techs: typeTechs
+  },
+  {
+    name: 'Diego Fernandes', age: 25, techs: typeTechs
+  },
 
 ]
 
