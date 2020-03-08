@@ -53,23 +53,22 @@ const nphone1 = ProgCompanies[1].phone;
 const mail1 = ProgCompanies[1].email;
 
 
-console.log(`At ${id1Company} you can talk to ${manager1} by phone number ${nphone1 } 
+console.log(`At ${id1Company} you can talk to ${manager1} by phone number ${nphone1} 
 or send an email:${mail1}.`)
 
 
 const companyNames = ['Linked in Corporation', 'RocketSeat Tecnologias,Google LLC']
 console.log(companyNames)
 
-const companyAdresses = ['Mary Ave, Sunnyvale Street', 'Guilherme Gembala Street ','Amphitheatre Pkwy Street']
+const companyAdresses = ['Mary Ave, Sunnyvale Street', 'Guilherme Gembala Street ', 'Amphitheatre Pkwy Street']
 console.log(companyAdresses)
 
-const companyNumbers = [580,260,1600]
+const companyNumbers = [580, 260, 1600]
 console.log(companyNumbers)
 
-const companyCities = ['Montain View-California','Rio do Sul-Sc.','Montain View-California']
+const companyCities = ['Montain View-California', 'Rio do Sul-Sc.', 'Montain View-California']
 console.log(companyCities)
 
 
 
 
- 
