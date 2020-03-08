@@ -1,77 +1,77 @@
-const studentsClassA = [ 
+const studentsClassA = [
   {
-    name:'Mayk',
+    name: 'Mayk',
     grade: 9.9
   },
   {
-    name:'Diego',
-    grade:10
+    name: 'Diego',
+    grade: 10
   },
   {
-    name:'Gay',
-    grade:8
+    name: 'Gay',
+    grade: 8
   },
   {
-    name:'more student',
-    grade:9.0
+    name: 'more student',
+    grade: 9.0
   }
-  ]
-  
-  const studentsClassB = [ 
-    {
-      name:'Gustavo',
-      grade: 9.8
-    },
-    {
-      name:'Filipi',
-      grade:8.0
-    },
-    {
-      name:'Herta',
-      grade:10
-    }
-    ]
+]
 
-    const studentsClassC = [ 
-      {
-        name:'John',
-        grade: 5.0
-      },
-      {
-        name:'Sarah',
-        grade:6.0
-      },
-      {
-        name:'Peter',
-        grade:0.0
-      },
-      {
-        name:'beginner',
-        grade:4.5
-      }
-    ]
+const studentsClassB = [
+  {
+    name: 'Gustavo',
+    grade: 9.8
+  },
+  {
+    name: 'Filipi',
+    grade: 8.0
+  },
+  {
+    name: 'Herta',
+    grade: 10
+  }
+]
 
-function calculateMedia(students) {
-  let soma = 0
+const studentsClassC = [
+  {
+    name: 'John',
+    grade: 5.0
+  },
+  {
+    name: 'Sarah',
+    grade: 6.0
+  },
+  {
+    name: 'Peter',
+    grade: 0.0
+  },
+  {
+    name: 'beginner',
+    grade: 4.5
+  }
+]
+
+function caculateAverage(students) {
+  let sum = 0
   for (let i = 0; i < students.length; i++) {
-    soma = soma + students[i].grade
+    sum = sum + students[i].grade
   }
-  const media = soma / students.length
-  return media
+  const average = sum / students.length
+  return average
 }
-  
- const media1= calculateMedia(studentsClassA) 
- const media2= calculateMedia(studentsClassB)
- const media3= calculateMedia(studentsClassC)
 
- function sendMessage(media, Class) {
-  if (media > 7) {
-    console.log(`The media of the ${Class} was ${media}.Congratulation`)
+const average1 = caculateAverage(studentsClassA)
+const average2 = caculateAverage(studentsClassB)
+const average3 = caculateAverage(studentsClassC)
+
+function sendMessage(average, Class) {
+  if (average > 7) {
+    console.log(`The average of the ${Class} was ${average}.Congratulation`)
   } else {
-    console.log(`The media of the ${Class} is less that 7`)
+    console.log(`The average of the ${Class} is less that 7`)
   }
- }
+}
 
- sendMessage(media1,'ClassA')
- sendMessage(media2,'ClassB')
- sendMessage(media3,'ClassC')
+sendMessage(average1, 'ClassA')
+sendMessage(average2, 'ClassB')
+sendMessage(average3, 'ClassC')

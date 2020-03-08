@@ -5,27 +5,27 @@
 // se a pessoa tiver 17 anos avisar para voltar quando fizer 18 anos.
 
 
-const ageCustomer1= 16
-const ageCustomer2= 20
-const ageCustomer3= 17
+const ageCustomer1 = 16
+const ageCustomer2 = 20
+const ageCustomer3 = 17
 
-if (ageCustomer1 >=18) {
-  console.log ('Let In!')
-} else { 
-  console.log ('Block Entry')
+if (ageCustomer1 >= 18) {
+  console.log('Let In!')
+} else {
+  console.log('Block Entry')
 }
 
 
-if (ageCustomer2 >=18) {
-  console.log ('Let In!')
-} else { 
-  console.log ('Block Entry')
+if (ageCustomer2 >= 18) {
+  console.log('Let In!')
+} else {
+  console.log('Block Entry')
 }
 
 
-if (ageCustomer3 >=18) {
-  console.log ('Let In!')
-} else { 
-  console.log ('Block Entry. Come back you will have 18')
+if (ageCustomer3 >= 18) {
+  console.log('Let In!')
+} else {
+  console.log('Block Entry. Come back you will have 18')
 }
 

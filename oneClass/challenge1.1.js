@@ -10,25 +10,25 @@ Se a pessoa tiver 17 anos vai receber a mensagem "Block ENtry.
 Come Back You Will Have 18"
 */
 
-const ageCustomer1= 17
-const ageCustomer2= 16
-const ageCustomer3= 18
+const ageCustomer1 = 17
+const ageCustomer2 = 16
+const ageCustomer3 = 18
 
-if(!(ageCustomer1 >=18) && ageCustomer1===17) {
-  console.log ('Block Entry. Come Back You Will HAVE 18!')
-} else { 
-  console.log ('Let In!')
+if (!(ageCustomer1 >= 18) && ageCustomer1 === 17) {
+  console.log('Block Entry. Come Back You Will HAVE 18!')
+} else {
+  console.log('Let In!')
 }
 
-if (!(ageCustomer2 >=18) || ageCustomer2===17) {
-  console.log ('Block Entry!')
-} else { 
-  console.log ('Let In!')
+if (!(ageCustomer2 >= 18) || ageCustomer2 === 17) {
+  console.log('Block Entry!')
+} else {
+  console.log('Let In!')
 }
 
-if (!(ageCustomer3 >=18) || ageCustomer3===17) {
-  console.log ('Block Entry!')
-} else { 
-  console.log ('Let In!')
+if (!(ageCustomer3 >= 18) || ageCustomer3 === 17) {
+  console.log('Block Entry!')
+} else {
+  console.log('Let In!')
 }
 
