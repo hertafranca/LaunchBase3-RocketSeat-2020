@@ -1,0 +1,105 @@
+@import"https://fonts.googleapis.com/css?family=Fredoka+One&display=swap">"
+
+:root{
+  --color-one: #48400a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background:#ffd771;
+  font-family: 'Fredoka One', cursive;
+}
+header {
+  padding: 32px;
+  border: 1px  solid #a58159;
+  background:rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  
+}
+header div {
+  text-align: center;
+}
+.links a {
+  color:var(--color-one);
+  font-size: 30px;
+  line-height: 28px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.links a:hover {
+  color:#a58159;
+  transition: color 200ms;
+}
+#wrapper {
+  text-align: center;
+  max-width: 700px;
+  padding: 30px;
+  background:rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+  border: 5px double #ccab87;
+  display: block;
+  margin: 10px auto;
+}
+#wrapper img {
+  height: 200px;
+  border-radius: 90px 20px;
+  border: 2px solid #ccab87;
+  margin-bottom: 32px;
+}
+#wrapper h1 {
+  font-size: 42px;
+  line-height: 52px;
+}
+#wrapper h1 a {
+  color: #ccab87;
+  text-decoration: none;
+}
+#wrapper h1 a:hover {
+  color:#a22700;
+  transition: color 200ms;
+}
+#wrapper h2 {
+  color:var(--color-one);
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: bolder;
+  opacity: 0.8;
+}
+#wrapper h2 a {
+  text-decoration: none;
+}
+#wrapper h2 a:hover {
+  color:#a22700;
+  transition: color 200ms;
+}
+#wrapper p {
+  color: #ccc387;
+  max-width:500px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: bolder;
+}
+
+#footnote {
+font-size: 12px;
+color:var(--color-one);
+}
+#footnote a {
+  color:#a22700;
+  font-weight: bold;
+}
+#footnote a:hover {
+  color:#ccc387;
+  transition: color 200ms;
+}
+#links-net {
+  color: #a22700;
+  padding:50px;
+  margin-bottom: 20px;
+}
