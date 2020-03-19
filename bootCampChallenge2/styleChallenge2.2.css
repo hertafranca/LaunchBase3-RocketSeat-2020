@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+header div#logo img {
+  border-radius: 5px;
+  border:6px double #02D261;
+  padding: 5px;
+  margin-top: 30px;
+  margin-left:227px;
+  margin-bottom: 5px;
+  height: 60px;
+}
+nav#menu {
+ display: block;
+}
+nav#menu ul {
+  text-transform: uppercase;
+  position: absolute;
+  list-style: none;
+  top: 5px;
+  left: 430px;
+  padding: 35px;
+}
+nav#menu ul li {
+  display: inline-block;
+  padding: 20px;
+}
+nav#menu ul li a {
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+  color: #ff4f00;
+  font-weight: bold;
+  text-decoration: none; 
+}
+nav#menu ul li a:hover {
+  color:#52eb00 ;
+transition: color 200ms;
+  
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('./assets/purple.jpg');
+}
+#interface {
+background-color:rgba(97,71,172,0.3);
+max-width: 900px ;
+margin: 5px auto 10px auto;
+border-radius: 10px;
+box-shadow:20px 15px #02D261;
+text-align: center;
+
+}
+h1{
+  color: #02D261;
+  padding: 15px 10px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+}
+div#interface div#studio img{
+  margin: 40px auto 45px auto;
+  padding: 10px auto 10px auto;
+  border-radius: 5px 5px;
+  border:6px double #02D261;
+}
+p {
+  font-size: 20px;
+  color: aliceblue;
+  margin: 0px 30px 0px 30px;
+  text-align: justify;
+  text-indent: 50px;
+}
+
