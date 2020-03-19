@@ -1,6 +1,6 @@
-@import"https://fonts.googleapis.com/css?family=Fredoka+One&display=swap">"
+@import"https://fonts.googleapis.com/css?family=Fredoka+One&display=swap"
 
-:root{
+:root {
   --color-one: #48400a;
 }
 
@@ -18,7 +18,6 @@ header {
   border: 1px  solid #a58159;
   background:rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  
 }
 header div {
   text-align: center;
