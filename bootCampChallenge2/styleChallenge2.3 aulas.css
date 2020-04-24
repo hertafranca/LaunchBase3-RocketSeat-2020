@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-size: 35%;
+  background-image: url("./assets/spacemanjpg");
+}
+#logo img {
+  border-radius: 5px;
+  border: 6px double #68efef;
+  box-shadow: 0px 0px 10px #68efef;
+  padding: 3px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  height: 60px;
+}
+#interface {
+  margin: 3px auto 5px auto;
+  display: flex;
+  justify-content: space-between;
+}
+#interface nav#mainMenu a {
+  display: inline-block;
+  padding: 2px;
+  margin-top: 5px;
+  margin-right: 30px;
+}
+a {
+  font-family: "Bungee", cursive;
+  text-decoration: none;
+  color: #ffff00;
+}
+a:hover {
+  color: #68efef;
+  transition: color 200ms;
+}
+#interface,
+#container,
+footer {
+  padding: 5px;
+  max-width: 900px;
+  background-color: rgb(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 10px #68efef;
+  margin: 20px auto;
+}
+#container {
+  text-align: center;
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ffff;
+  padding: 45px 10px 20px 10px;
+  font-family: "Bungee", cursive;
+  font-size: 30px;
+}
+p {
+  color: #68efef;
+  text-align: justify;
+  font-size: 20px;
+  margin: 0px 40px 20px 40px;
+  text-indent: 50px;
+}
+
+ul#techsMain {
+  list-style: none;
+  padding: 5px 10px 25px 10px;
+  display: inline-block;
+}
+ul#techsMain li {
+  width: 180px;
+  height: 180px;
+  float: left;
+  padding: 1px 5px;
+  border-radius: 5px;
+  border: 6px double #68efef;
+  box-shadow: 0px 0px 10px #68efef;
+  margin: 5px 5px;
+}
+ul#techsMain li :hover {
+  -webkit-transform: scale(1.4);
+}
+ul#techsMain li div span {
+  font-size: 12px;
+  font-family: "Abril Fatface", cursive;
+  color: #ff4f00;
+  font-weight: bold;
+  opacity: 0;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+ul#techsMain li div:hover span {
+  opacity: 1;
+}
+
+ul#techsMain li div#javaScript {
+  background: url("./assets/javascript.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  display: flex;
+  align-items: center;
+  border-radius: 180px 180px;
+  height: 180px;
+  width: 180px;
+  transition: all 0.5s linear;
+}
+ul#techsMain li div#reactNative {
+  background: url("./assets/react-native.png") no-repeat;
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  display: flex;
+  align-items: center;
+  border-radius: 180px 180px;
+  height: 180px;
+  width: 180px;
+  transition: all 0.5s linear;
+}
+ul#techsMain li div#nodeJs {
+  background: url("./assets/nodejs.png") no-repeat;
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  display: flex;
+  align-items: center;
+  border-radius: 180px 180px;
+  height: 180px;
+  width: 180px;
+  transition: all 0.5s linear;
+}
+ul#techsMain li div#reactJs {
+  background: url("./assets/react.png") no-repeat;
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+  display: flex;
+  align-items: center;
+  border-radius: 180px 180px;
+  height: 180px;
+  width: 180px;
+  transition: all 0.5s linear;
+}
+.instructors {
+  display: flex;
+  justify-content: center;
+}
+.imgBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px 55px;
+}
+.imgBox img {
+  border-radius: 5px;
+  border: 6px double #68efef;
+  box-shadow: 0px 0px 10px #68efef;
+  padding: 5px
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+.instructors a {
+  color: #e12a0d;
+  font-size: 25px;
+  font-family: "Berkshire Swash", cursive;
+  padding: 5px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.instructors a:hover {
+  color: #68efef;
+  transition: color 200ms;
+  text-decoration: none;
+}
+
+footer {
+  margin: 10px auto;
+  text-align: center;
+}
+#footNote {
+  color: #68efef;
+}
+#rocketSymbol img {
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  border: 6px double #68efef;
+  box-shadow: 0px 0px 10px #68efef;
+}
+
