@@ -1,11 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
 }
 body {
-  margin-left: 50px;
-  margin-right: 50px;
+  font-family: "Roboto", sans-serif;
+  background-size: 35%;
   background-image: url("./assets/backrocket.png");
 }
 #logo img {
@@ -30,6 +35,8 @@ body {
   margin-right: 30px;
 }
 a {
+  font-size: 12px;
+  font-family: "Bungee", cursive;
   text-decoration: none;
   color: #ffff00;
 }
@@ -50,19 +57,23 @@ footer {
   text-align: center;
 }
 h1 {
+  font-family: "Bungee", cursive;
   margin-top: 10px;
   color: #ffff;
   font-weight: bolder;
 }
 #mainP {
-  max-width: 500px;
+  max-width: 800px;
   margin: 0 auto;
 }
 p {
   color: #68efef;
   text-align: justify;
+  font-size: 20px;
 }
 #studio img {
+  height: 380px;
+  width: 380px;
   margin-top: 30px;
   border-radius: 5px;
   border: 6px double #68efef;
@@ -71,9 +82,9 @@ p {
   box-shadow: 0px 0px 10px #68efef;
 }
 h4 {
-  color: #68efef;
+  color: #ff4f00;
 }
-h6 {
+h5 {
   color: #ffff;
   margin-bottom: 20px;
 }
