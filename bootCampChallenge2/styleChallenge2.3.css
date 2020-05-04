@@ -66,6 +66,10 @@ h1 {
   max-width: 800px;
   margin: 0 auto;
 }
+#mainP p a {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
 p {
   color: #68efef;
   text-align: justify;
