@@ -35,6 +35,7 @@ body {
   margin-right: 30px;
 }
 a {
+  font-size: 12px;
   font-family: "Bungee", cursive;
   text-decoration: none;
   color: #ffff00;
